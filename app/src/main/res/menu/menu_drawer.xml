@@ -3,13 +3,13 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/inbox"
+            android:id="@+id/menu_drawer_event"
             android:checked="false"
             android:icon="@drawable/ic_event_black_48dp"
             android:title="Event" />
 
         <item
-            android:id="@+id/starred"
+            android:id="@+id/menu_drawer_setting"
             android:checked="false"
             android:icon="@drawable/ic_settings_black_48dp"
             android:title="Settings" />

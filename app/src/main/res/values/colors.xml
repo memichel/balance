@@ -4,11 +4,12 @@
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#FF5252</color>
 
-    <color name="titleColor">#FFFFFF</color>
-
     <color name="colorPrimaryLight">#BBDEFB</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#727272</color>
-    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorIcons">@color/white</color>
     <color name="colorDivider">#B6B6B6</color>
+
+    <color name="grey">#9E9E9E</color>
+    <color name="white">#FFF</color>
 </resources>
