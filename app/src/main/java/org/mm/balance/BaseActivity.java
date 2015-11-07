@@ -1,7 +1,6 @@
 package org.mm.balance;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -30,14 +29,14 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     }
 
-    protected void replaceFragment(Fragment f, boolean addToBackStack, boolean animate) {
+    protected void replaceFragment(BaseFragment f, boolean addToBackStack, boolean animate) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
         if (animate) {
-            fragmentTransaction.setCustomAnimations(R.anim.fade_in, R.anim.fade_out);
+            fragmentTransaction.setCustomAnimations(R.anim.fade_in, R.anim.fade_out, R.anim.fade_in, R.anim.fade_out);
         }
 
-        fragmentTransaction.replace(R.id.main_container, f);
+        fragmentTransaction.replace(R.id.main_container, f, f.getFragmentTag());
 
         if (addToBackStack) {
             fragmentTransaction.addToBackStack(null);

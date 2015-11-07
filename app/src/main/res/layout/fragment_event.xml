@@ -13,7 +13,7 @@
         android:id="@+id/fragment_event_recyclerview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="gone" />
+        tools:visibility="gone" />
 
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/fragment_event_fab_menu"

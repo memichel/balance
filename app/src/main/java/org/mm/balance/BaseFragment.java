@@ -21,6 +21,8 @@ public abstract class BaseFragment extends Fragment {
         return v;
     }
 
+    protected abstract String getFragmentTag();
+
     @LayoutRes
     protected abstract int getContentLayout();
 }

@@ -47,7 +47,7 @@ public class MainActivity extends BaseActivity {
                 if (mMenuItemSelected != null) {
                     switch (mMenuItemSelected.getItemId()) {
                         case R.id.menu_drawer_event:
-                            replaceFragment(eventFragment, false, true);
+                            onBackPressed();
                             break;
 
                         case R.id.menu_drawer_setting:

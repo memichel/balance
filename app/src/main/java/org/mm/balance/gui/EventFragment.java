@@ -8,8 +8,15 @@ import org.mm.balance.R;
  */
 public class EventFragment extends BaseFragment {
 
+    public static final String TAG = EventFragment.class.getSimpleName();
+
     public static EventFragment newInstance() {
         return new EventFragment();
+    }
+
+    @Override
+    protected String getFragmentTag() {
+        return TAG;
     }
 
     @Override
