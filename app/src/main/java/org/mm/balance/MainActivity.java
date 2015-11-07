@@ -1,13 +1,16 @@
 package org.mm.balance;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.content.Context;
+import android.content.Intent;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
+
+    public static Intent getIntent(Context context) {
+        return new Intent(context, MainActivity.class);
+    }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected int getContentLayout() {
+        return R.layout.activity_main;
     }
 }
