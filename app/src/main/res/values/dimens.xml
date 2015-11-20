@@ -3,6 +3,11 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <dimen name="little_margin">8dp</dimen>
+    <dimen name="default_margin">12dp</dimen>
+    <dimen name="high_margin">16dp</dimen>
+    <dimen name="xhigh_margin">20dp</dimen>
+
     <!-- Default text size -->
     <dimen name="text_size_xxsmall">14sp</dimen>
     <dimen name="text_size_xsmall">16sp</dimen>

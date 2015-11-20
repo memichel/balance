@@ -11,7 +11,7 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 import android.view.View;
 
-import org.mm.balance.gui.EventFragment;
+import org.mm.balance.gui.event.EventFragment;
 import org.mm.balance.gui.SettingFragment;
 
 public class MainActivity extends BaseActivity {
